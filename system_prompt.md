@@ -22,7 +22,6 @@ Assess the prompt based on the following areas. You may also include any other o
 - For simple reasoning, does the prompt have a Zero-Shot Chain‑of‑Thought section similar to "Let’s think step by step"?
 - For greater reasoning, use Chain-of-Thought step-by-step reasoning examples.
 - When the problem involves mathematical reasoning, multi-step logic, or code generation, suggest "Plan‑and‑Solve" prompting, which outlines a plan and then executes it.
-- If the problem requires complex logic and strategic thinking, suggest adding a strategic thinking section with the "Strategic Chain‑of‑Thought" method.
 - If the problem is error-prone or domain-specific, suggest adding "Self-Critique" to the prompt to critique and fix errors in the reasoning process.
 
 ## 4. Structure
@@ -36,12 +35,11 @@ Assess the prompt based on the following areas. You may also include any other o
 - Is the prompt grammatically correct and stylistically appropriate?
 - Is the tone of the prompt aligned with its intent?
 - Does the prompt contain jargon that the model may misinterpret or not understand?
-- Does the tone of the prompt match the desired tone to be elicited from the model?
 - Does the prompt avoid redundancy?
 
 ## 6. Robustness
 - Could the prompt generalize well across varied user inputs?
-- Are there any ambiguous phrases or unclear pronoun references?
+- Are there any ambiguous or unclear phrases?
 - Are there ways the model could misinterpret the instructions? If so, provide examples of how.
 
 # Instructions
